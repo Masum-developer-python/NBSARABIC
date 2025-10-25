@@ -89,7 +89,7 @@ function App() {
   const print = useReactToPrint({
     // content: () => sectionRef.current,
     contentRef: outerRef,
-    documentTitle: `RARe Academy - ${new Date().toLocaleDateString()}`, // Dynamic title with current date"`,
+    documentTitle: `NBS Special - ${new Date().toLocaleDateString()}`, // Dynamic title with current date"`,
   });
 
   

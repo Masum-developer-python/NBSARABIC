@@ -6,29 +6,29 @@ function UsePageTitle() {
   const location = useLocation();
 
   useEffect(() => {
-    let title = "RARe Academy"; // default
+    let title = "NBS Special"; // default
 
     switch (location.pathname) {
       case "/":
-        title = "RARe Academy";
+        title = "NBS Special";
         break;
       case "/ict":
-        title = "ICT - RARe Academy";
+        title = "ICT - NBS Special";
         break;
       case "/math":
-        title = "Math - RARe Academy";
+        title = "Math - NBS Special";
         break;
       case "/hisab":
-        title = "Coaching Accounting System - RARe Academy";
+        title = "Coaching Accounting System - NBS Special";
         break;
       case "/routine":
-        title = "Class Routine Generator - RARe Academy";
+        title = "Class Routine Generator - NBS Special";
         break;
       case "/whiteboard":
-        title = "Whiteboard - RARe Academy";
+        title = "Whiteboard - NBS Special";
         break;
       default:
-        title = "others - RARe Academy";
+        title = "others - NBS Special";
     }
 
     document.title = title;

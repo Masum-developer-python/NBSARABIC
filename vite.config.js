@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/", // Ensure this is correct
   server: {
-    port: 3000, // Change this to your desired port
+    port: 2500, // Change this to your desired port
     watch: {
       ignored: ['**/public/audios/**']
     },

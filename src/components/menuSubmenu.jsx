@@ -92,7 +92,7 @@ function Submenu({
         {/* Category Name */}
         <a
           className="block px-1 py-2 rounded hover:bg-blue-700 focus:bg-red-200 transition duration-1000"
-          href={"https://growwithquran.xyz/"}
+          href={"/quran"}
         >
           Quran
         </a>
@@ -106,9 +106,23 @@ function Submenu({
         {/* Category Name */}
         <a
           className="block px-1 py-2 rounded hover:bg-blue-700 focus:bg-red-200 transition duration-1000"
-          href={"/ict"}
+          href={"/hadith"}
         >
-          ICT
+          Hadith
+        </a>
+        <br />
+        <hr />
+      </li>
+      <li key={"1"} className="">
+        <hr />
+        <br />
+        <br />
+        {/* Category Name */}
+        <a
+          className="block px-1 py-2 rounded hover:bg-blue-700 focus:bg-red-200 transition duration-1000"
+          href={"/fiqah"}
+        >
+          Fiqah
         </a>
         <br />
         <hr />
@@ -120,9 +134,9 @@ function Submenu({
         {/* Category Name */}
         <a
           className="block px-1 py-2 rounded hover:bg-blue-700 focus:bg-red-200 transition duration-1000"
-          href={"/math"}
+          href={"/arabic1stpaper"}
         >
-          Math
+          Arabic 1st Paper
         </a>
         <br />
         <hr />
@@ -134,9 +148,9 @@ function Submenu({
         {/* Category Name */}
         <a
           className="block px-1 py-2 rounded hover:bg-blue-700 focus:bg-red-200 transition duration-1000"
-          href={"/physics"}
+          href={"/arabic2ndpaper"}
         >
-          Physics
+          Arabic 2nd Paper
         </a>
         <br />
         <hr />
@@ -148,9 +162,9 @@ function Submenu({
         {/* Category Name */}
         <a
           className="block px-1 py-2 rounded hover:bg-blue-700 focus:bg-red-200 transition duration-1000"
-          href={"/chemistry"}
+          href={"/balagatmantik"}
         >
-          Chemistry
+          Balagat & Mantik
         </a>
         <br />
         <hr />
@@ -165,6 +179,20 @@ function Submenu({
           href={"/whiteboard"}
         >
           হোয়াইট বোর্ড
+        </a>
+        <br />
+        <hr />
+      </li>
+      <li key={"zfgh0"} className="">
+        <hr />
+        <br />
+        <br />
+        {/* Category Name */}
+        <a
+          className="block px-1 py-2 rounded hover:bg-blue-700 focus:bg-red-200 transition duration-1000"
+          href={"https://growwithquran.xyz/"}
+        >
+          Learning Quran
         </a>
         <br />
         <hr />
